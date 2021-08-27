@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+    margin: 40px 0 40px;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px #000;
+    font-family: cursive;
+    color: #ffff;
+  }
+  nav {
+    margin: 27px auto 0;
+    position: relative;
+    width: 590px;
+    height: 50px;
+    background-color: #535d67;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #000;
+  }
+  nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+  }
+  nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+  }
+  a:nth-child(1) {
+    width: 130px;
+  }
+  a:nth-child(2) {
+    width: 140px;
+  }
+  a:nth-child(3) {
+    width: 140px;
+  }
+  a:nth-child(4) {
+   width: 150.5px;
+  }
+
+  nav .start-home, a:nth-child(4):hover ~ .animation {
+    width: 150.5px;
+    left: 430px;
+    background-color: #cf7500;
+  }
+  
+  body {
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #c8d5b9;
+  }
+  h2 {
+    text-align: center;
+    font-size: 25.5px;
+  }
+  h3 {
+    font-size: 17.4px;
+  }
+  .opisanie {
+    font-family: cursive;
+    font-size: 13.4px;
+  }
+  .zagolovok {
+    font-size: 20.4px;
+  }
+  .button_zagolovok {
+    font-size: 15.4px;
+  }
