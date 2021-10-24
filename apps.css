@@ -66,3 +66,12 @@ color: #526154;
 h1, h5, h3 {
 font-family: 'Source Code Pro', monospace;
 }
+button {
+text-decoration: none;
+background-color: coral;
+font-family: 'Source Code Pro', monospace;
+transition: all .11s ease-out;;
+}
+button:hover {
+color: lightcyan;
+}
