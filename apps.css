@@ -41,6 +41,7 @@ opacity: 7;
 background-color: #75bbfd;
 border-radius: 80px;
 color: #000;
+font-family: 'Source Code Pro', monospace;
 text-decoration: none;
 box-shadow: 0 4px 6px rgba(133, 77, 162, .2);
 transition: all .1s ease-in-out;
@@ -70,7 +71,7 @@ button {
 text-decoration: none;
 background-color: coral;
 font-family: 'Source Code Pro', monospace;
-transition: all .11s ease-out;;
+transition: all .11s ease-out;
 }
 button:hover {
 color: lightcyan;
